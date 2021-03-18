@@ -1,0 +1,17 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+    Scanner myObj = new Scanner(System.in);  // Create a Scanner object
+    System.out.println("Enter length of a rectangle");
+    String length = myObj.nextLine(); 
+    System.out.println("Enter breadth of rectangle");
+    String width = myObj.nextLine(); 
+    int length1 = Integer.parseInt(length);
+    int width1 = Integer.parseInt(width);
+    int areaOfRectangle = (length1)*(width1);
+    int perimeterOfRectangle =2*(length1+width1);
+    System.out.println("area of rectangle is :"+areaOfRectangle);
+    System.out.println("area of rectangle is :"+perimeterOfRectangle);
+
+	}

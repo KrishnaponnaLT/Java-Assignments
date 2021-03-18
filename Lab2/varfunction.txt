@@ -1,0 +1,26 @@
+public class DisplayVariableDataMembers
+{
+    static void displayInteger()
+      {
+          int id=10;
+          System.out.println(id);
+      }
+      static void displayString()
+      {
+          String name="xyz";
+          System.out.println(name);
+      }
+      static void displayBoolean()
+      {
+          boolean attendance=true;
+          System.out.println(attendance);
+      }
+	public static void main(String[] args)
+	{
+      
+      displayInteger();
+      displayString();
+      displayBoolean();
+
+	}
+}

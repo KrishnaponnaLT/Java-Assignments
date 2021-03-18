@@ -1,0 +1,26 @@
+interface Bank
+{
+    public void getInterest();
+    
+}
+public class UnionBank implements Bank
+{
+    public void getInterest()
+    {
+        System.out.println("Union bank");
+    }
+     public void getInterest()
+    {
+        System.out.println("ICICI bank");
+    }
+}
+    
+public class Main extends UnionBank
+{
+    public static void mani(String[] args)
+    {
+        UnionBank ub=new UnionBank();
+        ub.getInterest();
+       
+    }
+}

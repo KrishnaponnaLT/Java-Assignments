@@ -1,0 +1,18 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+    Scanner myObj = new Scanner(System.in);  // Create a Scanner object
+    System.out.println("Enter a value");
+    String number1 = myObj.nextLine(); 
+    System.out.println("Enter b value");
+    String number2 = myObj.nextLine(); 
+    int intNumber1 = Integer.parseInt(number1);
+    int intNumber2 = Integer.parseInt(number2);
+    int reminder=intNumber1%intNumber2;
+    int quotient=intNumber1/intNumber2;
+    System.out.println("reminder of two numbers is :"+reminder);
+    System.out.println("quotient of two numbers is :"+quotient);
+
+	}
+}
