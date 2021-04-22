@@ -1,0 +1,21 @@
+public class RethrowExceptionClass {
+   
+   public static void test1() throws Exception {
+      try 
+      {
+          System.out.println("The Exception in test1 method");
+          throw new Exception("thrown from test1 method");
+      } 
+      catch(Exception e) {
+         System.out.println("Exception caught");
+         throw e;
+      }
+   }
+   public static void main(String[] args) throws Throwable {
+      try {
+         test1();
+      } catch(Exception e) {
+         System.out.println("Caught in main");
+      }
+   }
+}

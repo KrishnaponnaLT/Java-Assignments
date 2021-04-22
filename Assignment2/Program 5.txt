@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class CountCharRepeatOccurrence   
+{  
+     public static void main(String[] args) {  
+         
+         System.out.println("Enter string : ");
+        Scanner sc = new Scanner(System.in);
+
+        String strng = sc.nextLine(); 
+        int i, j; 
+        int[] freqncy = new int[strng.length()];  
+        
+        char string[] = strng.toCharArray();  
+          
+        for(i = 0; i <strng.length(); i++) {  
+            freqncy[i] = 1;  
+            for(j = i+1; j <strng.length(); j++) {  
+                if(string[i] == string[j]) {  
+                    freqncy[i]++;  
+                    string[j] = '0';  
+                }  
+            }  
+        }
+        
+        System.out.println("Character frequencies:");  
+        for(i = 0; i <freqncy.length; i++) {  
+            if(string[i] != ' ' && string[i] != '0' && freqncy[i]>1 )
+                System.out.println(string[i] + "-" + freqncy[i]);  
+        }  
+    }  
+}

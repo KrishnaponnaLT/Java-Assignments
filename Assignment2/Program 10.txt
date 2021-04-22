@@ -1,0 +1,9 @@
+public class PassArgument { 
+   public static void main (String args[]) { 
+      try {
+         throw new Exception("Passing argument while throwing exception");
+      } catch (Exception e) {
+         System.out.println(e.getMessage());
+      }
+   }
+}
