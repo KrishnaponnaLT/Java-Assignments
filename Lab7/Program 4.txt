@@ -1,0 +1,8 @@
+public class TrimString{
+
+    public static void main(String[] args) {  
+        String s= "     She sells sea shells on the sea shore    ";
+s = s.trim();
+System.out.println(s);
+    }  
+}

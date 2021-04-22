@@ -1,0 +1,9 @@
+public class StrReplace
+{  
+    public static void main(String args[])
+    {  
+        String s1="Pan Pun Prank Pit Pat";  
+        String replaceStr=s1.replace('P','F');
+        System.out.println(replaceStr);  
+    }
+}
