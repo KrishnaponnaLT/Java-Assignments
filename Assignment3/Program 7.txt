@@ -1,0 +1,24 @@
+import java.util.*;
+public class SortArrayList  {
+
+	public static void main(String args[]){
+	   ArrayList<String> aList = new ArrayList<String>();
+	   aList.add("Apple");
+	   aList.add("Dad");
+	   aList.add("Cat");
+	   aList.add("Ball");
+	   aList.add("Zebra");
+
+	   System.out.println("Before Sorting:");
+	   for(String s: aList){
+			System.out.println(s);
+		}
+
+	   Collections.sort(aList);
+
+	   System.out.println("After Sorting:");
+	   for(String s: aList){
+			System.out.println(s);
+		}
+	}
+}

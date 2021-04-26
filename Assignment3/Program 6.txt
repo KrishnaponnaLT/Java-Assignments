@@ -1,0 +1,20 @@
+import java.util.TreeSet;
+ 
+public class LowestHighestTreeset {
+ 
+  public static void main(String[] args) {
+ 
+    TreeSet tSet = new TreeSet();
+   
+    tSet.add("10");
+    tSet.add("20");
+    tSet.add("30");
+    tSet.add("40");
+    tSet.add("50");
+   
+    System.out.println("Lowest value: " + tSet.first());
+   
+    System.out.println("Highest value: " + tSet.last());
+ 
+  }
+}
