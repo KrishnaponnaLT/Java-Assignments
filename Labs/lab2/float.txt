@@ -1,0 +1,13 @@
+public class Main {  
+    public static void main(String[] args) {  
+       float num1=5.8f;  
+       float num2=5f;
+       float temp=0;
+       System.out.println("Before swapping: "+num1 +"   " + num2);
+       temp = num1;  
+       num1 = num2;  
+       num2 = temp;  
+       System.out.println("After swapping: "+num1 +"   " + num2);  
+       System.out.println( );  
+    }    
+}  

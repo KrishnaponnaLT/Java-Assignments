@@ -1,0 +1,23 @@
+
+
+public class CalculateParameter
+{
+    public static void calculatePerimeter(int length, int width) 
+    {
+       int perimeterOfRectangle=length*width;
+        System.out.println("perimeter Of Rectangle is :"+perimeterOfRectangle);
+    }
+    public static void calculatePerimeter(int length) 
+    {
+        int perimeterOfSquare=4*length;
+        System.out.println("perimeter Of square is :"+perimeterOfSquare);
+    }
+   
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		calculatePerimeter(2,7);
+		calculatePerimeter(2);
+		
+		
+	}
+}

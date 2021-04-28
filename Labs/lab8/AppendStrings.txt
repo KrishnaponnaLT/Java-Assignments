@@ -1,0 +1,19 @@
+public class StrAppend
+{  
+    public static void main(String args[])
+    {  
+        StringBuffer sbuf = new StringBuffer("string buffer:Initial--");
+         
+        sbuf.append("After Append:");
+        String str = "String Final";
+        sbuf.append(str);
+        System.out.println(sbuf);
+        
+        StringBuilder sbuild = new StringBuilder("string builder: Initial-- ");  
+       
+        String str1 ="Appending string"; 
+        sbuild.append(str1);
+        System.out.println(sbuild); 
+        
+    }
+}

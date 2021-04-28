@@ -1,0 +1,12 @@
+public class StrCompare
+{  
+    public static void main(String args[])
+    {  
+        String s1 = "Hello World";
+        String s2 = "Hello World";
+        String s3 = "Testing string";
+        System.out.println("Fact that s1 and s2 are equal is " + s1.equals(s2));
+        System.out.println("Fact that s3 and s2 are equal is " + s3.equals(s2));
+        
+    }
+}

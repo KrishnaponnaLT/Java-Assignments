@@ -1,0 +1,13 @@
+ublic class Main {
+      int variable;
+        public Main()
+        {
+        variable=369;
+        }
+    public static void main(String[] args)
+    { 
+        Main main=new Main();
+        System.out.println(main.variable);
+    }
+       
+}  

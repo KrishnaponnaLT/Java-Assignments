@@ -1,0 +1,37 @@
+public class CharacterSort{
+
+  
+    static void charSort(String input) {  
+        int totalChar = input.length(); 
+        String upperCase ="", lowerCase ="",others = "",digits = "";
+        
+        char[] chr = input.toCharArray();
+        for (int i = 0; i < input.length(); i++) {  
+            
+            if (Character.isUpperCase(chr[i])) {  
+                upperCase = upperCase + chr[i];
+                
+            }  
+            else if (Character.isLowerCase(chr[i])) {  
+                lowerCase = lowerCase + chr[i];  
+            }  
+             else if (Character.isDigit(chr[i])) {  
+                digits = digits + chr[i];  
+            }  
+            else {  
+                others = others + chr[i];  
+            }  
+        }  
+       
+        System.out.println("In '" + input + "' : ");  
+        System.out.println("Uppercase letters are " + upperCase);  
+        System.out.println("Lowercase letters are " + lowerCase);
+        System.out.println("Digits are " + digits);  
+        System.out.println("Other letters are " + others); 
+         
+   
+    }  
+    public static void main(String[] args) {  
+        charSort("AbCdefGHijklMNOpqRstUVwxyZ@%*234");  
+    }  
+}
