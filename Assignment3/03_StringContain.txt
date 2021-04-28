@@ -1,0 +1,10 @@
+public class StringContain
+{
+    public static void main(String[] args) {
+          
+     String origString = "A brown fox ran away fast";
+     boolean isFound = origString.contains("brown");
+     System.out.println(isFound);
+
+    }
+}
