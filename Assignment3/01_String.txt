@@ -1,0 +1,26 @@
+public class CountCharOccurrence   
+{  
+     public static void main(String[] args) {  
+        String strng = "DevLabsAllianceTraining"; 
+        int i, j; 
+        int[] freqncy = new int[strng.length()];  
+        
+        char string[] = strng.toCharArray();  
+          
+        for(i = 0; i <strng.length(); i++) {  
+            freqncy[i] = 1;  
+            for(j = i+1; j <strng.length(); j++) {  
+                if(string[i] == string[j]) {  
+                    freqncy[i]++;  
+                    string[j] = '0';  
+                }  
+            }  
+        }
+        
+        System.out.println("Character frequencies:");  
+        for(i = 0; i <freqncy.length; i++) {  
+            if(string[i] != ' ' && string[i] != '0')  
+                System.out.println(string[i] + "-" + freqncy[i]);  
+        }  
+    }  
+}

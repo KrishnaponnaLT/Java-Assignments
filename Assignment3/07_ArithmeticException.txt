@@ -1,0 +1,25 @@
+public class ArithExp
+    {  
+    void method1() throws ArithmeticException
+        { 
+        System.out.println(1/0);
+	    //throw new ArithmeticException("ArithmeticException Raised")
+	    }  
+   
+   void method2()
+        {  
+	    try
+	        {  
+	        method1();  
+	        }
+	    catch(ArithmeticException e)
+	        {
+	        System.out.println("ArithmeticException is handled in catch");
+	        }  
+        }  
+     public static void main(String args[])
+     {  
+	    ArithExp obj=new ArithExp();  
+	    obj.method2(); 
+   }  
+}

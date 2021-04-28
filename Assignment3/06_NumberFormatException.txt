@@ -1,0 +1,17 @@
+public class NumFormatExp   
+{  
+     public static void main(String[] args)
+     {  
+        String inputString = "78 "; // Added space that will throw NumberFormatException
+         
+        try 
+        {  
+            int a = Integer.parseInt(inputString);  
+        }
+        
+        catch(NumberFormatException ex)
+        {  
+            System.err.println("Invalid string in argumment");  
+        }  
+    }  
+}
