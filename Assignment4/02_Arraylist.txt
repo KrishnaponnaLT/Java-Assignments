@@ -1,0 +1,20 @@
+import java.util.*;
+  
+public class ReverseDemo
+{
+    public static void main(String[] args)
+    {
+        
+        List<String>  myArrayList = new ArrayList<String>();
+        myArrayList.add("1");
+        myArrayList.add("2");
+        myArrayList.add("3");
+        myArrayList.add("4");
+  
+        System.out.println("Original List : " + myArrayList);
+  
+        Collections.reverse(myArrayList);
+  
+        System.out.println("Reverse List: " + myArrayList);
+    }
+}

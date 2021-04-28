@@ -1,0 +1,23 @@
+import java.util.*;
+  
+public class HashTableKey {
+    public static void main(String[] args)
+    {
+  
+        Hashtable<Integer, String> hashTable = 
+        new Hashtable<Integer, String>();
+  
+        hashTable.put(1, "Hello");
+        hashTable.put(5, "World");
+        hashTable.put(10, "Welcomes");
+        hashTable.put(15, "here");
+  
+        System.out.println("Initial Table is: " + hashTable);
+  
+        System.out.println("Is the key '20' exists in hashtable? " + 
+        hashTable.containsKey(8));
+  
+        System.out.println("Is the key '5' exists in hashtable? " + 
+        hashTable.containsKey(15));
+    }
+}

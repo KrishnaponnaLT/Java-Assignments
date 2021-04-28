@@ -1,0 +1,28 @@
+import java.util.HashMap;  
+import java.util.Map;  
+import java.util.Set;  
+   
+public class DuplicateCharHashMap {  
+    public void findDup(String str) {  
+        Map<Character, Integer> baseString = new HashMap<Character, Integer>();  
+        char[] charArray = str.toCharArray();  
+        for (Character ch : charArray) {  
+            if (baseString.containsKey(ch)) {  
+                baseString.put(ch, baseString.get(ch) + 1);  
+            } else {  
+                baseString.put(ch, 1);  
+            }  
+        }  
+        Set<Character> keys = baseString.keySet();  
+        for (Character ch : keys) {  
+            if (baseString.get(ch) > 1) {  
+                System.out.println(ch + " -  " + baseString.get(ch));  
+            }  
+        }  
+    }  
+   
+    public static void main(String a[]) {  
+        DuplicateCharHashMap dcf = new DuplicateCharHashMap();  
+        dcf.findDup("Hello world!! Welcome");  
+    }  
+}

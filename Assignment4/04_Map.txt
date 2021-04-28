@@ -1,0 +1,18 @@
+import java.util.HashMap;
+import java.util.ArrayList;
+import java.util.Map;
+
+public class KeysMapToList {
+   public static void main(String args[]){
+      Map<Integer, String> myMap = new HashMap<>();
+      myMap.put(1, "Hello");
+      myMap.put(2, "World!!");
+      myMap.put(3, "Welcome");
+      myMap.put(4, "to");
+      myMap.put(5, "program");
+
+      ArrayList<Integer> keys = new ArrayList<Integer>(myMap.keySet());
+      
+      System.out.println("Key list :"+keys);
+   }
+}
