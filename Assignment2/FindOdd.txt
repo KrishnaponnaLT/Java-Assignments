@@ -1,0 +1,14 @@
+public class FindOdd{
+
+     public static void main(String []args){
+      
+System.out.print("List of odd numbers from 79 to 187: ");  
+for (int i=79; i<=187; i++)   
+{ 
+if (i%2!=0)   
+{  
+System.out.print(i + ", ");  
+}  
+}  
+}
+}
