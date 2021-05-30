@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26036" started-at="2021-03-12T06:58:01Z" finished-at="2021-03-12T06:58:27Z">
+    <groups>
+    </groups>
+    <test name="Amazon Search Testing 2" duration-ms="25301" started-at="2021-03-12T06:58:01Z" finished-at="2021-03-12T06:58:27Z">
+      <class name="com.qa.testscripts.AmazonSearchItem">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testscripts.AmazonSearchItem@76707e36]" name="setUp" is-config="true" duration-ms="17471" started-at="2021-03-12T06:58:01Z" finished-at="2021-03-12T06:58:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidateAmazonTextBox(java.lang.String)[pri:1, instance:com.qa.testscripts.AmazonSearchItem@76707e36]" name="ValidateAmazonTextBox" duration-ms="504" started-at="2021-03-12T06:58:19Z" finished-at="2021-03-12T06:58:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Da vinci Code]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAmazonTextBox -->
+        <test-method status="PASS" signature="CheckIfPageLoaded()[pri:2, instance:com.qa.testscripts.AmazonSearchItem@76707e36]" name="CheckIfPageLoaded" duration-ms="4945" started-at="2021-03-12T06:58:19Z" finished-at="2021-03-12T06:58:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckIfPageLoaded -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testscripts.AmazonSearchItem@76707e36]" name="tearDown" is-config="true" duration-ms="2328" started-at="2021-03-12T06:58:24Z" finished-at="2021-03-12T06:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscripts.AmazonSearchItem -->
+    </test> <!-- Amazon Search Testing 2 -->
+    <test name="Amazon Search Testing 1" duration-ms="26036" started-at="2021-03-12T06:58:01Z" finished-at="2021-03-12T06:58:27Z">
+      <class name="com.qa.testscripts.AmazonSearchItem">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testscripts.AmazonSearchItem@2758fe70]" name="setUp" is-config="true" duration-ms="16567" started-at="2021-03-12T06:58:01Z" finished-at="2021-03-12T06:58:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidateAmazonTextBox(java.lang.String)[pri:1, instance:com.qa.testscripts.AmazonSearchItem@2758fe70]" name="ValidateAmazonTextBox" duration-ms="261" started-at="2021-03-12T06:58:18Z" finished-at="2021-03-12T06:58:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Da vinci Code]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAmazonTextBox -->
+        <test-method status="PASS" signature="CheckIfPageLoaded()[pri:2, instance:com.qa.testscripts.AmazonSearchItem@2758fe70]" name="CheckIfPageLoaded" duration-ms="7092" started-at="2021-03-12T06:58:18Z" finished-at="2021-03-12T06:58:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckIfPageLoaded -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testscripts.AmazonSearchItem@2758fe70]" name="tearDown" is-config="true" duration-ms="2063" started-at="2021-03-12T06:58:25Z" finished-at="2021-03-12T06:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscripts.AmazonSearchItem -->
+    </test> <!-- Amazon Search Testing 1 -->
+  </suite> <!-- Suite -->
+</testng-results>

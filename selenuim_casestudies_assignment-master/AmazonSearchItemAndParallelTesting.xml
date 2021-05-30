@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel = "tests">
+<test thread-count="4" name="Amazon Search Testing 1" parallel = "classes">
+	<parameter name="Category" value ="Books"/>
+    <parameter name="ItemName" value ="Da vinci Code"/>
+    <parameter name="Browser" value ="firefox"/>
+    <parameter name="Url" value ="https://www.amazon.in/"/>
+    <classes>
+      <class name="com.qa.testscripts.AmazonSearchItem"/>
+    </classes>
+</test> 
+
+<test thread-count="4" name="Amazon Search Testing 2" parallel = "classes">
+    <parameter name="Category" value ="Books"/>
+    <parameter name="ItemName" value ="Da vinci Code"/>
+    <parameter name="Browser" value ="firefox"/>
+    <parameter name="Url" value ="https://www.amazon.in/"/>
+    <classes>
+      <class name="com.qa.testscripts.AmazonSearchItem"/>
+    </classes>
+</test>     
+  <!-- Test -->
+</suite> <!-- Suite -->

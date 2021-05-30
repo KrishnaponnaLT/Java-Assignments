@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+      <parameter name="Browser" value ="firefox"/>
+  	<parameter name="Url" value ="http://demo.guru99.com/test/newtours/index.php"/>
+  	<parameter name="UserName" value ="mercury"/>
+  	<parameter name="Password" value ="mercury"/>
+  	<parameter name="Country" value = "India"/>
+    <classes>
+      <class name="com.qa.testscripts.NewTourDepartPresentIndia"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="UserName" value="mercury"/>
+    <parameter name="Country" value="India"/>
+    <parameter name="Url" value="http://demo.guru99.com/test/newtours/index.php"/>
+    <parameter name="Browser" value="firefox"/>
+    <parameter name="Password" value="mercury"/>
+    <classes>
+      <class name="com.qa.testscripts.NewTourDepartPresentIndia">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="checkDepartPresentIndia" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qa.testscripts.NewTourDepartPresentIndia -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

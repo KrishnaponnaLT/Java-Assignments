@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <parameter name="Browser" value ="firefox"/>
+  	<parameter name="Url" value ="http://demo.guru99.com/test/newtours/index.php"/>
+  	<parameter name="UserName" value ="mercury"/>
+  	<parameter name="Password" value ="mercury"/>
+  	<parameter name="Index" value = "3"/>
+  	<parameter name="Country" value = "New York"/>
+  	<parameter name="Month" value = "3"/>
+  	<parameter name="Day" value = "8"/>
+  	<parameter name="ArriveCountry" value = "Paris"/>
+  	<parameter name="ArriveMonth" value = "March"/>
+  	<parameter name="ArriveDay" value = "10"/>
+    <classes>
+      <class name="com.qa.testscripts.NewTourBookingFlightTicket"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
